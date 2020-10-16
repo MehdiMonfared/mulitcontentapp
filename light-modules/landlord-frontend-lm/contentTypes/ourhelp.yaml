@@ -1,0 +1,12 @@
+datasource:
+  workspace: ourhelp
+  autoCreate: true
+
+model:
+  nodeType: ourHelp
+  properties:
+    - name: header
+    - name: summary
+      type: richText
+    - name: buttonLabel
+      label: Button label

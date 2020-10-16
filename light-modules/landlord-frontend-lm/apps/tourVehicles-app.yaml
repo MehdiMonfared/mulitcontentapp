@@ -1,0 +1,21 @@
+!content-type:tourVehicle
+name: tourVehicles-app
+#
+subApps:
+  detail:
+      form:
+        properties:
+          vehicleType:
+            fieldType: select
+            label: Vehicle type
+            options:
+              - name: bicycle
+                value: bicycle
+              - name: motorbike
+                value: motorbike
+              - name: van
+                value: van
+              - name: boat
+                value: boat
+              - name: other
+                value: other

@@ -1,0 +1,22 @@
+datasource:
+  workspace: touroffices
+  autoCreate: true
+ 
+model:
+  properties:
+    - name: city
+    - name: address
+    - name: country
+    - name: tourGuides
+      type: tourguide
+      multiple: true
+    - name: allVehicles
+      type: vehicleGroup
+      multiple: true
+  subModels:
+  - name: vehicleGroup
+    properties:
+      - name: vehicle
+        type: reference:tourVehicle
+      - name: amount
+        type: Double

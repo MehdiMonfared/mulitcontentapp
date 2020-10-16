@@ -1,0 +1,15 @@
+datasource:
+  workspace: allcontent
+  autoCreate: true
+
+model:
+  nodeType: loginbanner
+  properties:
+    name:
+      label: Name
+      required: true
+    tagline:
+      label: Tag Line
+      
+
+  

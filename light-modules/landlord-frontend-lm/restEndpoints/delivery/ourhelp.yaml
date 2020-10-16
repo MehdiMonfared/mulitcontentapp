@@ -1,0 +1,12 @@
+class: info.magnolia.rest.delivery.jcr.v2.JcrDeliveryEndpointDefinition
+workspace: ourhelp
+depth: 10
+bypassWorkspaceAcls: true
+includeSystemProperties: no
+
+nodeTypes:
+  - ourHelp
+  - mgnl:content
+childNodeTypes: 
+  - ourHelp
+  - mgnl:content

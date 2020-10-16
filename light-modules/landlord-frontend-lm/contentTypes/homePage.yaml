@@ -1,0 +1,18 @@
+datasource:
+  workspace: websitepages
+  autoCreate: true
+
+model:
+  nodeType: homepage
+  properties: 
+    name:
+      label: Page Name
+      required: true
+      banner:
+        label: Home Page login Banner
+        type: loginbanner
+      hero:
+        label: 'Section: Hero'
+        type: hero
+        required: true
+  

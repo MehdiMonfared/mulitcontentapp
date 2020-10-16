@@ -1,0 +1,15 @@
+datasource:
+  workspace: allcontent
+  autoCreate: true
+
+model:
+  nodeType: hero
+  properties: 
+    name:
+      label: Name
+      required: true
+      header:
+        label: header
+        row: 3
+      
+  

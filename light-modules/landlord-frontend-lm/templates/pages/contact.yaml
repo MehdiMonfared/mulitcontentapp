@@ -1,0 +1,15 @@
+title: 'React: Contact'
+templateScript: /landlord-frontend-lm/webresources/build/index.html
+dialog: landlord-frontend-lm:pages/basic
+
+renderType: spa
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+
+areas:
+  main:
+    title: Main Area
+    availableComponents:
+      Paragraph:
+        id: landlord-frontend-lm:components/paragraph
+      Expander:
+        id: landlord-frontend-lm:components/expander

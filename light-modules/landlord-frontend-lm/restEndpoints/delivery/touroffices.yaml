@@ -1,0 +1,13 @@
+class: info.magnolia.rest.delivery.jcr.v2.JcrDeliveryEndpointDefinition
+workspace: touroffices
+depth: 10
+bypassWorkspaceAcls: true
+includeSystemProperties: no
+
+references:
+  - name: anyname 
+    propertyName: tourGuides  
+    referenceResolver:   
+      class: info.magnolia.rest.reference.jcr.JcrReferenceResolverDefinition
+      targetWorkspace: tourguides   
+      expand: true

@@ -1,0 +1,14 @@
+name: webPages-app
+icon: icon-sitemaps-app
+class: info.magnolia.ui.contentapp.configuration.ContentAppDescriptor
+appClass: info.magnolia.ui.framework.app.BaseApp
+
+#JCR datasource
+datasource:
+  $type: jcrDatasource
+  workspace: websitepages
+  allowedNodeTypes:
+    - homepage
+
+subApps:
+  home-page: !include /landlord-frontend-lm/includes/apps/webPages-app/home-page.yaml

@@ -1,0 +1,11 @@
+datasource:
+  workspace: tourvehicles
+  autoCreate: true
+  
+model:
+  properties:
+    - name: vehicleType
+    - name: numberOfSeats
+      type: Double
+    - name: description
+      type: richText
